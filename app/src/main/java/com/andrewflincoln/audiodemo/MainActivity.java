@@ -77,13 +77,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        new Timer().scheduleAtFixedRate(new TimerTask() {
-            @Override
-            public void run() {
-                scrubSeekBar.setProgress(mediaPlayer.getCurrentPosition());
-            }
-        }, 0, 1000);
-
+//        new Timer().scheduleAtFixedRate(new TimerTask() {
+//            @Override
+//            public void run() {
+//                scrubSeekBar.setProgress(mediaPlayer.getCurrentPosition());
+//            }
+//        }, 0, 1);
+//this is how you make the thing move but it breaks the audio - RP advises rolling back to AS3
 
 
 
